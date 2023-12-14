@@ -1,4 +1,9 @@
 @import 'variables';
-h1{
+h1 {
     color: $red-color;
+}
+
+.search-form {
+    width: 500px;
+    margin: 50px auto;
 }
