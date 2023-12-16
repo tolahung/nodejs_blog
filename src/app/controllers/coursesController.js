@@ -35,9 +35,7 @@ class CoursesController {
             .then(()=>{
                 res.redirect('/')
             })
-            .catch(error =>{
-
-            });
+            .catch(next);
     }
 }
 
