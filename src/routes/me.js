@@ -4,6 +4,7 @@ const meController = require('../app/controllers/meController');
 
 
 router.get('/stored/courses', meController.storedCourses);
+router.get('/trash/courses', meController.trashCourses);
 
 // router.get('/', coursesController.index);
 
